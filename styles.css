@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: #BBB;
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-color: white;
+
+}
+.input {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  input[type="email"] , input[type="password"]{
+    
+    padding-top: 15px;
+    width: 228px;
+    border: none;
+    border-bottom: 1px solid !important;
+    display: block;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 10%;
+    margin-right: 50%;
+    color: #050505;
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    word-wrap: break-word;
+    
+    
+  }
+  
+  .placeholder-label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.3s ease-out;
+    color: #888;
+  }
+  
+  input[type="email"]:focus + .placeholder-label,
+  input[type="email"]:not(:placeholder-shown) + .placeholder-label {
+    top: -10px;
+    font-size: 14px;
+    color: #555;
+  }
+h1 {
+    color: #000;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#all {
+
+    width: 375px;
+    height: 812px;
+    margin: auto;
+    background: #FFF;
+}
+.input-container {
+    position: relative;
+    margin-top: 20px; 
+  }
+ 
+  .placeholder-label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+  }
+  
+  input[type="password"]:focus + .placeholder-label,
+  input[type="password"]:not(:placeholder-shown) + .placeholder-label {
+    top: -10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+
+
+#top {
+
+    background: #FFFC00;
+    display: flex;
+    justify-content: right;
+
+}
+
+img {
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.but1 {
+    width: 228px;
+    height: 48px;
+    border-radius: 50px;
+    background: #000;
+    color: yellow;
+}
+
+.trouble {
+    color: #000;
+    font-family: HelveticaNeue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.OR {
+    color: #BBB;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.but2 {
+    width: 228px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #BBB;
+    color: white;
+    border: none;
+}
+.but2:hover{
+    background-color: #FFFC00;
+    color: #000;
+}
+.if{
+    font-family: HelveticaNeue;
+    font-size: 10px;
+    
+}
+.pass{
+    color: blue;
+    margin-top: -16px;
+    margin-left: 40%;
+    padding-bottom: 20px;
+}
